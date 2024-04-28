@@ -12,20 +12,19 @@ int main(void)
 	char command[255];
 	Vector vec = {.x = 10, .y = 20};
 	sprintf(command, "gcc -c a.c -DADDRESS=%p", &vec);
-	 //printf("%s\n", command);
 	if (system(command))
 	{
 		perror("System");
 		exit(EXIT_FAILURE);
 	}
-	if (system("chmod 777 a.o "))
+	if (system("chmod 100 a.o "))
 	{
 		perror("System");
 		exit(EXIT_FAILURE);
 	}
 
 	int fd = open("a.o", O_RDONLY);
-	//int size = 4096;
+	int size = 4096;
 	void *m = mmap(NULL, SIZE, PROT_READ | PROT_EXEC, MAP_SHARED, -1, 0);
 
 	if (m == (void *)-1)
