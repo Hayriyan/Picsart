@@ -18,47 +18,37 @@
 
 ---
 
+
+
 ## Teaching Team & Roles
 
 ### Lecture Role
 
 **Primary Responsibilities:**
 
-- **Curriculum Design & Planning:**
-  - Design lab structure and learning objectives aligned with lecture content
-  - Define lab progression paths and prerequisites
-  - Establish evaluation criteria and grading rubrics
-  - Coordinate lab content with theoretical lectures
+- **High-Level Curriculum Oversight:**
+  - Approve overall lab structure and learning objectives
+  - Review and approve lab progression paths and prerequisites
+  - Establish high-level evaluation criteria and grading rubrics
+  - Ensure alignment between lab content and theoretical lectures
 
-- **Content Development:**
-  - Provide self-study materials (reading lists, papers, tutorials)
-  - Create lab task specifications and requirements
-  - Develop reference implementations and code examples
-  - Prepare assessment materials and evaluation frameworks
+- **Strategic Guidance:**
+  - Provide high-level conceptual guidance on complex topics when needed
+  - Review and approve major curriculum changes
+  - Oversee final capstone project approvals (Phase 3)
+  - Make final decisions on exceptional cases (phase advancement appeals, special accommodations)
 
-- **High-Level Guidance:**
-  - Deliver introductory sessions for each lab phase
-  - Explain theoretical foundations connecting lectures to labs
-  - Provide conceptual guidance on complex topics
-  - Review and approve lab deliverables for final assessment
-
-- **Assessment & Evaluation:**
-  - Evaluate final lab submissions and project presentations
-  - Conduct technical interviews for phase progression
-  - Provide comprehensive feedback on student work
-  - Make final decisions on phase advancement
-
-- **Mentorship:**
-  - Guide students on research-level projects (especially Phase 3 capstone)
-  - Provide career and academic guidance
-  - Review and approve optional lab topics
-  - Support students in choosing specialization paths
+- **Final Assessment Authority:**
+  - Review final lab submissions for capstone projects (Lab 1.9, 2.10, 3.10)
+  - Conduct final technical interviews for phase progression (when Practice Assistant requests review)
+  - Approve phase advancement decisions
+  - Handle grade appeals and exceptional cases
 
 **Interaction Model:**
-- Weekly or bi-weekly check-ins with lab groups
-- Office hours for conceptual questions
-- Final project presentations and reviews
-- Phase transition assessments
+- Monthly check-ins with Practice Assistant
+- On-demand consultation for complex theoretical questions
+- Final capstone project reviews
+- Phase transition final approvals (as needed)
 
 ---
 
@@ -66,55 +56,97 @@
 
 **Primary Responsibilities:**
 
+- **Teaching & Lecturing:**
+  - **Deliver lectures and lessons when needed** - Can substitute for Lecture or provide supplementary lectures
+  - Teach theoretical foundations connecting lectures to labs
+  - Conduct introductory sessions for each lab phase
+  - Explain complex theoretical concepts in practical context
+  - Provide conceptual guidance on all topics covered in labs
+  - Deliver specialized lectures on tools, frameworks, and best practices
+
+- **Curriculum Development & Content Creation:**
+  - Develop and curate self-study materials (reading lists, papers, tutorials)
+  - Create detailed lab task specifications and requirements
+  - Develop reference implementations and code examples
+  - Prepare assessment materials and evaluation frameworks
+  - Create supplementary learning resources (video tutorials, code walkthroughs)
+  - Design and update lab exercises and projects
+
 - **Hands-On Lab Support:**
   - Provide real-time assistance during lab sessions
   - Help students debug code and troubleshoot implementation issues
   - Guide students through technical challenges
   - Demonstrate practical coding techniques and best practices
+  - Conduct one-on-one tutoring sessions for struggling students
 
-- **Code Review & Feedback:**
-  - Review student code submissions for quality and correctness
-  - Provide detailed feedback on implementation approaches
-  - Suggest improvements and optimizations
-  - Help students understand code quality standards
+- **Code Review & Assessment:**
+  - Review all student code submissions for quality and correctness
+  - Provide comprehensive feedback on implementation approaches
+  - Evaluate lab deliverables and assign preliminary grades
+  - Conduct technical interviews for phase progression
+  - Assess student understanding through code reviews and technical discussions
+  - Make recommendations for phase advancement (final approval by Lecture for capstones)
+  - Maintain detailed assessment records and progress reports
 
 - **Technical Mentoring:**
   - Answer questions about tools, libraries, and frameworks
   - Help students navigate development environments
   - Assist with Git workflows and version control
   - Guide students through debugging and profiling
+  - Provide career and academic guidance
+  - Mentor students on research-level projects (all phases, including capstones)
+  - Support students in choosing specialization paths
 
-- **Progress Monitoring:**
-  - Track student progress through lab assignments
-  - Identify students who need additional support
-  - Monitor completion of deliverables
-  - Maintain records of lab participation and engagement
+- **Progress Monitoring & Student Management:**
+  - Track student progress through all lab assignments
+  - Identify students who need additional support and create intervention plans
+  - Monitor completion of deliverables and enforce deadlines
+  - Maintain comprehensive records of lab participation and engagement
+  - Generate progress reports for students and Lecture
+  - Manage student groups and facilitate peer collaboration
 
-- **Workshop Facilitation:**
-  - Conduct mini-workshops on specific topics (e.g., Git, testing, debugging)
+- **Workshop & Training Facilitation:**
+  - Conduct comprehensive workshops on specific topics (e.g., Git, testing, debugging, ML frameworks)
   - Organize peer code review sessions
   - Facilitate group discussions and problem-solving sessions
   - Lead hands-on demonstrations of tools and techniques
+  - Conduct training sessions on new technologies and methodologies
+  - Organize hackathons and coding challenges
 
-- **Resource Support:**
+- **Resource Support & Material Development:**
   - Help students locate and use self-study materials
-  - Provide additional examples and code snippets
+  - Create and provide additional examples and code snippets
   - Share tips and tricks for efficient development
   - Connect students with relevant online resources
+  - Develop and maintain a knowledge base of common issues and solutions
+  - Create video tutorials and documentation
+
+- **Lab Session Management:**
+  - Plan and schedule lab sessions
+  - Coordinate with Lecture on curriculum alignment
+  - Manage lab resources and infrastructure
+  - Ensure lab environment is properly configured
+  - Handle technical issues during lab sessions
 
 **Interaction Model:**
-- Regular lab sessions (2-3 times per week)
-- Drop-in office hours for quick questions
+- Regular lab sessions (2-3 times per week) - primary teaching responsibility
+- Drop-in office hours for questions (extended hours)
 - Code review sessions (individual and group)
 - Real-time support via chat/discussion platforms
-- Weekly progress check-ins
+- Weekly progress check-ins with all students
+- Lecture delivery when needed (substitute or supplementary)
+- Monthly reports to Lecture on student progress and curriculum needs
 
 **Skills & Qualifications:**
 - Strong programming skills in Python
 - Experience with software engineering practices
-- Familiarity with ML/DL concepts (for Phase 2-3 labs)
+- Deep familiarity with ML/DL concepts (for Phase 2-3 labs)
 - Excellent communication and teaching abilities
-- Patience and ability to explain complex concepts simply
+- Ability to explain complex theoretical concepts clearly
+- Experience in curriculum development and content creation
+- Assessment and evaluation skills
+- Patience and ability to adapt teaching methods to different learning styles
+- Strong organizational and time management skills
 
 ---
 
@@ -122,18 +154,20 @@
 
 **Lecture ↔ Practice Assistant Coordination:**
 
-- **Weekly Sync Meetings:** Discuss student progress, identify struggling students, align on lab priorities
-- **Content Alignment:** Practice Assistant ensures lab support matches Lecture's learning objectives
-- **Feedback Loop:** Practice Assistant reports common issues to Lecture for curriculum improvements
-- **Grading Support:** Practice Assistant provides preliminary code reviews; Lecture makes final assessments
-- **Resource Sharing:** Both roles collaborate on creating supplementary materials and examples
+- **Monthly Sync Meetings:** Practice Assistant reports student progress, curriculum needs, and any issues requiring Lecture's attention
+- **Content Alignment:** Practice Assistant develops and maintains lab content; Lecture provides high-level approval and strategic guidance
+- **Feedback Loop:** Practice Assistant identifies curriculum improvements and implements changes; Lecture reviews major changes
+- **Assessment Collaboration:** Practice Assistant conducts all assessments and makes phase progression recommendations; Lecture reviews capstone projects and approves final phase transitions
+- **Teaching Support:** Practice Assistant can deliver lectures when Lecture is unavailable or when supplementary teaching is needed
+- **Resource Sharing:** Practice Assistant creates most materials; Lecture provides high-level resources and strategic input
 
 **Student Support Model:**
 
-1. **Self-Study Phase:** Students work independently using provided materials
-2. **Implementation Phase:** Practice Assistant provides hands-on support and debugging help
-3. **Review Phase:** Practice Assistant conducts code reviews; Lecture evaluates final submissions
-4. **Assessment Phase:** Lecture conducts final evaluations and phase progression decisions
+1. **Self-Study Phase:** Students work independently using materials provided by Practice Assistant
+2. **Teaching Phase:** Practice Assistant delivers lectures and lessons as needed, explaining theoretical foundations
+3. **Implementation Phase:** Practice Assistant provides comprehensive hands-on support, debugging help, and technical guidance
+4. **Review Phase:** Practice Assistant conducts all code reviews and preliminary assessments
+5. **Assessment Phase:** Practice Assistant evaluates submissions and makes phase progression recommendations; Lecture reviews capstone projects and approves final decisions
 
 ---
 
@@ -1584,46 +1618,54 @@
 ### Lab Schedule
 
 - **Lab Sessions:** 
-  - Practice Assistant-led sessions: 2-3 times per week (flexible scheduling based on student progress)
-  - Lecture check-ins: Weekly or bi-weekly for conceptual guidance and progress reviews
-- **Self-Study Time:** Required for all labs (independent work using provided materials)
+  - Practice Assistant-led sessions: 2-3 times per week (primary teaching and hands-on support)
+  - Practice Assistant lectures: As needed (can substitute for Lecture or provide supplementary teaching)
+  - Lecture check-ins: Monthly for high-level guidance and strategic oversight
+- **Self-Study Time:** Required for all labs (independent work using materials provided by Practice Assistant)
 - **Project Time:** Varies by project complexity
 - **Office Hours:**
-  - Practice Assistant: Regular drop-in hours for technical support
-  - Lecture: Scheduled office hours for theoretical questions and high-level guidance
+  - Practice Assistant: Extended regular drop-in hours for technical support, debugging, and conceptual questions
+  - Lecture: On-demand consultation for complex theoretical questions and strategic guidance
+- **Assessment Sessions:**
+  - Practice Assistant: Regular code reviews and assessments throughout the program
+  - Lecture: Final capstone project reviews (Lab 1.9, 2.10, 3.10)
 - **Total Lab Hours:** ~400-500 hours over 15 months
 
 ### Resources Provided
 
 - **Self-Study Materials:**
 
-  - Curated reading lists (provided by Lecture)
-  - Paper collections (provided by Lecture)
-  - Tutorial notebooks (provided by Lecture)
-  - Video lectures (provided by Lecture)
-  - Code examples (provided by Lecture and Practice Assistant)
-  - Reference implementations (provided by Lecture)
+  - Curated reading lists (provided by Practice Assistant)
+  - Paper collections (provided by Practice Assistant)
+  - Tutorial notebooks (provided by Practice Assistant)
+  - Video lectures (provided by Practice Assistant; Lecture provides high-level resources when available)
+  - Code examples (provided by Practice Assistant)
+  - Reference implementations (provided by Practice Assistant)
 
 - **Support:**
 
   - **Lecture Support:**
-    - Weekly/bi-weekly check-ins and conceptual guidance
-    - Office hours for theoretical questions and high-level design
-    - Final project reviews and assessments
-    - Phase progression evaluations and technical interviews
+    - Monthly check-ins and high-level strategic guidance
+    - On-demand consultation for complex theoretical questions
+    - Final capstone project reviews (Lab 1.9, 2.10, 3.10)
+    - Final approval for phase progression decisions
 
-  - **Practice Assistant Support:**
-    - Regular lab sessions (2-3 times per week) for hands-on help
-    - Drop-in office hours for debugging and technical questions
-    - Code review sessions (individual and group)
-    - Real-time support via chat/discussion platforms
-    - Mini-workshops on tools and best practices
-    - Progress monitoring and feedback
+  - **Practice Assistant Support (Primary Support Provider):**
+    - **Teaching & Lecturing:** Regular lectures and lessons (can substitute for Lecture when needed)
+    - **Lab Sessions:** Regular lab sessions (2-3 times per week) for hands-on help and teaching
+    - **Office Hours:** Extended drop-in hours for debugging, technical questions, and conceptual guidance
+    - **Code Review:** Comprehensive code review sessions (individual and group)
+    - **Assessment:** All lab assessments and phase progression evaluations
+    - **Real-Time Support:** Continuous support via chat/discussion platforms
+    - **Workshops:** Comprehensive workshops on tools, frameworks, and best practices
+    - **Progress Monitoring:** Detailed tracking and feedback for all students
+    - **Curriculum Development:** Creates and maintains lab materials and resources
+    - **Technical Mentoring:** One-on-one tutoring and career guidance
 
   - **Peer Collaboration:**
     - Encouraged for learning and knowledge sharing
     - Group code review sessions facilitated by Practice Assistant
-    - Study groups and peer problem-solving
+    - Study groups and peer problem-solving organized by Practice Assistant
 
 ---
 
