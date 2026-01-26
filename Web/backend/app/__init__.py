@@ -1,1 +1,0 @@
-# Lab Platform Backend App
