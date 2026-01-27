@@ -401,169 +401,333 @@
 
 ## Phase 2: Machine Learning
 
-**Duration:** Months 9-12  
-**Prerequisites:** Phase 1 completed + Separate math syllabus (linear algebra, probability theory, calculus)
-
-### Month 9: Introduction to ML & Regression
-
-#### Week 1-2: Introduction to Machine Learning
-
-- **Lecture 23:** ML Foundations and Learning Theory
-  - Formal definition of ML
-  - Learning paradigms (supervised, unsupervised, semi-supervised, reinforcement)
-  - ML workflow (data → preprocessing → model → evaluation → deployment)
-  - Bias-variance decomposition (mathematical formulation)
-  - Bias-variance tradeoff (practical implications)
-  - Learning theory basics (PAC learning, VC dimension - intuitive)
-  - No-free-lunch theorem (intuitive)
-  - Empirical risk vs true risk
-  - Overfitting and underfitting (formal definitions)
-- **Practice 23:**
-  - Set up ML development environment
-  - Explore ML datasets
-  - Implement basic data preprocessing pipeline
-  - Visualize bias-variance tradeoff
-
-#### Week 3-4: Supervised Learning I — Regression
-
-- **Lecture 24:** Linear and Polynomial Regression
-  - Linear regression (mathematical formulation)
-  - Least squares solution (derivation)
-  - Normal equation derivation
-  - Polynomial regression
-  - Bias–variance tradeoff (detailed analysis)
-  - Overfitting and underfitting (visualization and analysis)
-  - Regularization (Ridge, Lasso) — mathematical derivation
-  - Elastic Net regularization
-  - Regression metrics (MSE, MAE, RMSE, R², adjusted R²)
-  - Feature scaling and normalization
-- **Practice 24:**
-  - Implement linear regression from scratch
-  - Implement Ridge and Lasso from scratch
-  - Compare with scikit-learn
-  - Experiment with bias-variance tradeoff
-  - Regularization parameter tuning
+**Duration:** Months 9–12  
+**Prerequisites:** Phase 1 completed + Mathematics syllabus  
+**Goal:** Build strong classical ML foundations through EDA, derivation, and from-scratch implementation
 
 ---
 
-### Month 10: Model Evaluation & Classification
+### Lecture 23: Introduction to Artificial Intelligence
 
-#### Week 1-2: Model Evaluation & Validation
+- AI vs ML vs Deep Learning
+- Types of Machine Learning
+  - Supervised
+  - Unsupervised
+  - Reinforcement Learning
+- Regression vs Classification
+- Machine Learning workflow
+- Applications of ML
 
-- **Lecture 25:** Evaluation Strategies
-  - Train/validation/test split
-  - Cross-validation (k-fold, stratified, leave-one-out, time-series CV)
-  - Error analysis techniques
-  - Learning curves (training vs validation)
-  - Hyperparameter tuning strategies (grid search, random search, Bayesian optimization)
-  - Model selection and comparison
-  - Statistical significance testing
-- **Practice 25:**
-  - Implement cross-validation from scratch
-  - Build hyperparameter tuning pipeline
-  - Error analysis exercises
-  - Learning curve visualization
-
-#### Week 3-4: Supervised Learning II — Classification
-
-- **Lecture 26:** Classification Algorithms
-  - Logistic regression (mathematical derivation)
-  - Maximum likelihood estimation
-  - k-Nearest Neighbors (k-NN)
-  - Decision boundaries
-  - Classification metrics:
-    - Accuracy, precision, recall, F1
-    - Confusion matrix
-    - ROC curve and AUC
-    - Precision-recall curve
-    - Multi-class metrics
-  - Generative vs discriminative learning (introduction)
-- **Practice 26:**
-  - Implement logistic regression from scratch
-  - Implement k-NN from scratch
-  - Build metric calculation functions
-  - Compare with scikit-learn
-  - Visualize decision boundaries
+**Practice 23 and Homework A — EDA Milestone #1 (Easy Dataset)**
+  - Basic EDA
+  - Missing value handling
+  - Encoding categorical features
+  - Feature scaling
 
 ---
 
-### Month 11: Optimization & Advanced Supervised Learning
+### Lecture 24: k-Nearest Neighbors & Data Splitting
 
-#### Week 1-2: Optimization Techniques
+- k-NN intuition
+- Distance metrics
+- Choosing K
+- Train / Validation / Test split
+- k-Fold cross-validation
 
-- **Lecture 27:** Gradient-Based Optimization
-  - Gradient Descent (derivation)
-  - Stochastic Gradient Descent (SGD)
-  - Mini-batch gradient descent
-  - Momentum (Nesterov momentum)
-  - Adaptive methods: Adam, RMSProp, AdaGrad (derivations)
-  - Learning rate scheduling (step decay, exponential decay, cosine annealing)
-  - Second-order methods (Newton's method, quasi-Newton methods - overview)
-  - Optimization for non-convex problems
-- **Practice 27:**
-  - Implement gradient descent from scratch
-  - Implement SGD, Adam, RMSProp
-  - Visualize optimization paths
-  - Compare optimization algorithms
-  - Learning rate scheduling experiments
+**Practice 23**
+- Dataset: Wine Quality / Breast Cancer
+- Tasks:
+  - Apply KNN with sklearn
+  - Tune K with cross-validation
+  - Preprocess features
 
-#### Week 3-4: Support Vector Machines
-
-- **Lecture 28:** SVM Theory and Practice
-  - SVM for classification (mathematical formulation)
-  - Hard margin vs soft margin
-  - SVM for regression (SVR)
-  - Kernel trick (mathematical intuition and derivation)
-  - Common kernels (linear, polynomial, RBF, sigmoid)
-  - Dual formulation (Lagrangian duality)
-  - Kernel methods overview
-- **Practice 28:**
-  - Implement SVM from scratch (simplified)
-  - Kernel implementation
-  - Compare with scikit-learn
-  - Visualize decision boundaries with different kernels
+**Homework 24:**
+- Implement k-NN from scratch
+- Implement cross-validation manually
 
 ---
 
-### Month 12: Ensemble Methods & Unsupervised Learning
+### Lecture 25: Decision Trees & Overfitting
 
-#### Week 1-2: Decision Trees and Ensemble Methods
+- Tree structure
+- Underfitting vs overfitting
+- Depth control
 
-- **Lecture 29:** Tree-Based Methods
-  - Decision trees (ID3, CART, C4.5)
-  - Splitting criteria (entropy, Gini impurity, information gain)
-  - Pruning (pre-pruning, post-pruning)
-  - Random Forests (bootstrap aggregation, feature bagging)
-  - Gradient Boosting (XGBoost, LightGBM concepts)
-  - AdaBoost
-  - Model comparison and selection
+
+**Practice 25**
+- Dataset: Lending Club dataset (tabular, larger dataset)
+- Tasks:
+  - Train Decision Tree
+  - Visualize tree
   - Feature importance
-- **Practice 29:**
-  - Implement decision tree from scratch
-  - Implement random forest
-  - Implement gradient boosting (simplified)
-  - Compare ensemble methods
-  - Feature importance analysis
 
-#### Week 3-4: Unsupervised Learning
 
-- **Lecture 30:** Clustering and Dimensionality Reduction
-  - K-Means clustering (algorithm derivation, initialization methods)
-  - Hierarchical clustering (agglomerative, divisive)
-  - DBSCAN (density-based clustering)
-  - Principal Component Analysis (PCA) — mathematical derivation
-  - Singular Value Decomposition (SVD) for dimensionality reduction
-  - Gaussian Mixture Models (GMM)
-  - Expectation-Maximization (EM) algorithm (derivation)
-  - t-SNE and UMAP (overview)
-- **Practice 30:**
-  - Implement K-Means from scratch
-  - Implement PCA from scratch
-  - Implement GMM with EM
-  - Compare with scikit-learn
-  - **Machine Learning Mini-Project:** End-to-end ML pipeline with presentation and evaluation
+**Homework 25:**
+- Implement Decision Tree from scratch
+- Overfitting experiments
 
 ---
+
+### Lecture 26: Perceptron & Support Vector Machines (Conceptual)
+
+- Linear classifiers
+- Margin
+- Kernel intuition
+
+**Practice 26:**
+- Dataset: MNIST digits subset (image)
+- Tasks:
+  - Train SVM with RBF kernel
+  - Visualize misclassified digits
+
+**Homework B — EDA Milestone #2 (Medium Dataset)**
+  - Advanced EDA
+  - Outlier detection
+  - Feature encoding
+
+
+---
+
+### Lecture 27: Linear Regression
+
+- Model equation
+- Mean Squared Error (MSE)
+- Normal equation
+
+**Practice 26:**
+- Dataset: Bike sharing dataset (tabular, time-series)
+- Task:
+
+**Homework 27:**
+- Implement Linear Regression from scratch
+
+---
+
+### Lecture 28: Generalized Linear Models & Polynomial Regression
+
+- Feature expansion
+- Non-linear regression
+- Overfitting
+
+**Practice 28:**
+- Dataset: Bike sharing dataset (tabular, time-series)
+- Task:
+
+**Homework 28:**
+- Polynomial regression implementation
+- Overfitting visualization
+
+---
+
+### Lecture 29: Regularization Techniques
+
+- L2 Regularization (Ridge)
+- L1 Regularization (Lasso)
+- Elastic Net (concept)
+- Bias–Variance tradeoff
+- Feature selection
+
+**Practice 28:**
+- Dataset: Bike sharing dataset (tabular, time-series)
+- Task:
+
+**Homework 29:**
+- Ridge regression from scratch
+- Basic Lasso implementation
+- Compare Linear vs Polynomial vs Ridge vs Lasso
+
+---
+
+### Lecture 30: Metrics & Bias–Variance Tradeoff
+
+- Regression metrics
+- Classification metrics
+- Confusion Matrix
+- ROC and AUC
+- Learning curves
+
+**Practice 30:**
+- Intro to TenserFlow
+
+**Homework C — EDA Milestone #3 (Medium–Hard Dataset)**
+- Model evaluation
+- Feature engineering
+- Bias–Variance analysis
+
+---
+
+### Lecture 31: Logistic Regression
+
+- Sigmoid function
+- Log-loss
+- Decision boundary
+
+**Practice 31:**
+- Dataset: Voice dataset (audio, binary: male/female)
+- Task:
+  - Extract MFCC features
+  - Train logistic regression from TenserFlow
+  - Evaluate metrics
+
+**Homework 31:**
+- Implement Logistic Regression from scratch
+
+---
+
+### Lecture 32: Optimization Algorithms
+
+- Gradient Descent (derivation)
+- Stochastic Gradient Descent
+- Mini-batch Gradient Descent
+- Momentum & Nesterov
+- Adam, RMSProp, AdaGrad
+- Learning rate scheduling
+- Second-order methods
+- Non-convex optimization
+
+**Practice 32:**
+- Dataset: Blood Cell Images (Image Classification)
+- Task: 
+  - Train logistic regression from TenserFlow
+  - Use optimization tools
+
+**Homework D — EDA Milestone #4 (Large Dataset)**
+- Advanced EDA
+- Normalization
+- GD vs Adam comparison
+- Implement GD & SGD
+
+---
+
+### Lecture 33: Advanced Support Vector Machines
+
+- Soft margin SVM
+- Kernel trick
+- Hyperparameters
+- Multiclass SVM
+
+**Practice 33:**
+- Dataset: Dataset: Fashion-MNIST (image classification)
+- Task: 
+  - Use SVM with soft margin
+
+**Homework 33:**
+- Kernel comparison
+- Hyperparameter tuning
+
+---
+
+### Lecture 34: Ensemble Methods
+
+- Decision Trees (ID3, CART, C4.5)
+- Splitting criteria
+- Pruning
+- Random Forests
+- Gradient Boosting (XGBoost / LightGBM)
+- AdaBoost
+- Feature importance
+- Model comparison
+
+**Practice 34:**
+- Dataset: Wine quality / toy dataset
+- Task: 
+  - Train Random Forest & Gradient Boosting
+  - Use TensorFlow
+
+**Homework 34:**
+- Random Forest implementation
+- Boosting implementation
+- Feature importance report
+
+---
+
+### Lecture 35: Naive Bayes & Gaussian Discriminant Analysis
+
+- Probabilistic classifiers
+- Generative vs discriminative models
+
+**Practice 35:**
+- Dataset: Voice dataset (audio, binary: male/female)
+- Task: 
+  - Implement Gaussian Naive Bayes using TensorFlow Probability
+  - Model the distribution of acoustic features (Mean Frequency, SD)
+  - Compare the decision boundary of this Generative model vs. the Logistic Regression from Practice 31
+  
+**Homework 35:**
+- Implement Naive Bayes from scratch
+
+---
+
+### Lecture 36: Clustering — k-Means Family
+
+- Hierarchical clustering
+- k-Means
+- Silhouette score
+- Soft k-Means
+- k-Medoids
+- k-Means++
+  
+**Practice 36:**
+- Dataset: Blood Cell Images / MNIST Digits
+- Task:
+  - Flatten image pixels into vectors.
+  - Apply k-Means to automatically group similar-looking cells/digits.
+  - Use the Silhouette score to evaluate if the clusters are well-separated.
+  - Visualize the "Centroids" (The average image representing each cluster).
+
+**Homework 36:**
+- Implement k-Means from scratch
+- Clustering evaluation
+
+---
+
+### Lecture 37: Gaussian Mixture Models & EM Algorithm
+
+- Gaussian Mixture Models
+- Expectation–Maximization
+
+**Practice 37:**
+- Dataset: Satellite Imagery (Land Cover)
+- Task:
+  - Use GMM to perform "Color Quantization" or segmentation on satellite photos.
+  - Group pixels into classes (water, forest, urban) based on their color distribution.
+  - Observe how "Soft Clustering" handles pixels that are a mix of two categories (e.g., a shoreline).
+**Homework 37:**
+- EM algorithm implementation
+
+---
+
+### Lecture 38: Spectral Clustering & DBSCAN
+
+- Density-based clustering
+- Noise handling
+- Anomaly detection
+
+**Practice 38:**
+
+**Homework E — EDA Milestone #5 (Real-World Dataset)**
+- Noise handling
+- Density clustering
+- Anomaly detection
+
+---
+
+### Lecture 39: Dimensionality Reduction & Final Project
+
+- Principal Component Analysis (PCA)
+- t-SNE
+
+**Practice 39:**
+
+**Homework F — Final Project (Production Dataset)**
+  - Full end-to-end ML pipeline
+  - EDA
+  - Cleaning
+  - Feature engineering
+  - Dimensionality reduction
+  - Modeling
+  - Evaluation
+  - Final report
 
 ## Phase 3: Deep Learning & Advanced AI
 
