@@ -1255,7 +1255,7 @@
 - **Flexibility:** Some topics may be adjusted based on cohort needs
 - **Depth:** Emphasis on deep understanding over breadth
 - **Projects:** All projects use real-world datasets
-- **Deployment:** MLOps and deployment are optional / light exposure only
+- **Deployment:** MLOps and deployment are optional/light exposure only
 
 ---
 
