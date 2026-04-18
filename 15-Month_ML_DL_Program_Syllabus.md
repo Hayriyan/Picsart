@@ -2,12 +2,12 @@
 
 ## Program Overview
 
-**Total Duration:** 15 months
-**Structure:** 4 main phases
-**Format:** Each topic = 1 Lecture 2.5h (theory + implementation example) + 1 Practice (hands-on)
-**Primary Framework:** PyTorch
-**Secondary Framework:** TensorFlow/Keras (comparative)
-**Assessment:** Exams/quizzes, coding assignments, projects, capstone
+**Total Duration:** 15 months \
+**Structure:** 4 main phases \
+**Format:** Each topic = 1 Lecture 2.5h (theory + implementation example) + 1 Practice (hands-on) \
+**Primary Framework:** PyTorch \
+**Secondary Framework:** TensorFlow/Keras (comparative) \
+**Assessment:** Exams/quizzes, coding assignments, projects, capstone 
 
 ---
 
