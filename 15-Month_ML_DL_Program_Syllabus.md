@@ -55,8 +55,6 @@
 
 **Practice 3:**
 - Linux command-line exercises
-- Process and thread management in Python
-- Git workflow setup
 
 ---
 
@@ -84,9 +82,8 @@
 - How Python interacts with memory
 
 **Practice 5:**
-- Memory access pattern experiments
-- Cache locality benchmarks
-- Memory profiling in Python
+- Linux command-line exercises
+- Git workflow setup
 
 ---
 
@@ -100,8 +97,8 @@
 
 **Practice 6:**
 - Benchmark CPU vs GPU operations
-- GPU memory management basics
-- Vectorized operations on CPU vs GPU
+- Linux command-line exercises
+- Git workflow setup
 
 ---
 
